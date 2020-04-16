@@ -5,6 +5,11 @@
 }
 
 /* Core Styles */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 a {
   text-decoration: none;
 }
