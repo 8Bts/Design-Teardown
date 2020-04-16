@@ -3,3 +3,56 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+/* Core Styles */
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.grid{
+  display: grid;
+
+}
+
+/* Main Container */
+.container {
+  grid-template-areas: 
+                  "nav"
+                  "main"
+                  "footer";
+  grid-auto-rows: 133.5px auto 642.5px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+.main-navigation {
+  grid-template-columns: auto repeat(6, 1fr);
+}
+
+.main-navigation > div{
+  border: 1px solid greenyellow;
+}
+
+.main-navigation img {
+  width: 250px;
+  height: 70px;
+}
+
+.main-navigation .logo-link {
+  display: block;
+}
+
+/* Main Section */
+main{
+  grid-area: main;
+  background: red;
+}
+
+/* Footer Section */
+footer {
+  grid-area: footer;
+  background: green;
+}
