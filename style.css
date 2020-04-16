@@ -1,7 +1,9 @@
 :root {
-  --dark-gray-color: #575747;
-  --darkest-gray-color: #333;
-  --light-gray-color: #898;
+  --darkest-gray-color: rgb(66, 66, 66);
+  --dark-gray-color: #494949;
+  --light-gray-color: rgb(99, 99, 99);
+  --lightest-gray-color: rgb(114, 114, 114);
+  --light-color: rgb(218, 218, 218);
   --whit-color: #fff;
 }
 * {
@@ -27,14 +29,47 @@ a {
   display: grid;
 }
 
+.flex-center-column {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .bg-darkest {
   background: var(--darkest-gray-color);
 }
+
 .bg-dark {
   background: var(--dark-gray-color);
 }
+
 .bg-light {
   background: var(--light-gray-color);
+}
+
+.bg-lightest {
+  background: var(--lightest-gray-color);
+}
+
+.avatar {
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  background-color: var(--light-color);
+  color: var(--darkest-gray-color);
+  border-radius: 18%;
+} 
+
+.text-center {
+  text-align: center;
 }
 
 /* Main Container */
@@ -97,6 +132,17 @@ nav {
 main {
   grid-area: main;
   background: red;
+}
+
+.latest-articles {
+  border: 1px solid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 703.05px);
+}
+
+
+.latest-articles  h2 {
+  font-size: 2.5rem;
 }
 
 /* Footer Section */
