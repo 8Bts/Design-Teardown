@@ -25,6 +25,10 @@ a {
   color: var(--whit-color);
 }
 
+ul {
+  list-style: none;
+}
+
 /* Utility Classes */
 .grid {
   display: grid;
@@ -333,6 +337,11 @@ main {
   display: inline-block;
   font-size: 1.5rem;
   margin-top: 5rem;
+}
+
+.curated-posts {
+  display: flex;
+  color: var(--darkest-gray-color);
 }
 /* Footer Section */
 footer {
