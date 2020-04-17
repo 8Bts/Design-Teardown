@@ -220,6 +220,19 @@ main {
   color: var(--dark-gray-color);
 }
 
+.upcoming {
+  height: 100vh;
+}
+
+.upcoming h1 {
+  align-self: center;
+  display:inline-block;
+  width: 500px;
+  padding: 3rem;
+  font-size: 2.5rem;
+  background: var(--light-color);
+}
+
 /* Footer Section */
 footer {
   grid-area: footer;
