@@ -1,7 +1,7 @@
 # Building with Backgrounds and Gradients
 
 This project is client side clone of old <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/"  target="_blank">iPhone Home Page</a>: 
-![screenshot](https://github.com/8Bts/Building-with-Backgrounds-and-Gradients/blob/apple-home/images/app-screenshot.png)
+![screenshot](https://github.com/8Bts/Design-Teardown/blob/home-page/images/app-screenshot.png)
 
 ## Built With
 
@@ -13,17 +13,23 @@ This project is client side clone of old <a href="https://web.archive.org/web/20
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/Building-with-Backgrounds-and-Gradients/80e7dc30b94c55f277ce1592f3a332654e4f37f7/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/f5204abadb8e67cacaa4a1b895800e3374c1534b/index.html" target="_blank">Live version</a>
 
-## Author
+## Authors
 
 👤 **Rashid Mammadli**
 
-- <a href="https://github.com/8Bts" target="_blank">Github</a> 
-- <a href="https://twitter.com/Rasheed49705929" target="_blank">Twitter</a> 
-- <a href="https://www.linkedin.com/in/rashid-mammadli-62b9b1171/" target="_blank">Linkedin</a> 
+- Github: [8Bts](https://github.com/8Bts)
+- Twitter: [@Rasheed49705929](https://twitter.com/Rasheed49705929)
+- Linkedin: [linkedin](https://www.linkedin.com/in/rashid-mammadli-62b9b1171/)
 - Email: mcmizze@yahoo.com
 
+👤 **Temesghen Tekeste**
+
+- Github: [temesghentekeste](https://github.com/temesghentekeste)
+- Twitter: [@temesghentekes1](https://twitter.com/temesghentekes1)
+- Linkedin: [linkedin](https://www.linkedin.com/in/temesghen-tekeste-bahta-8b5243193/)
+- Email:  mail.temesghen.tekeste@gmail.com
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!

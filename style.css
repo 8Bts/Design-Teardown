@@ -116,8 +116,12 @@ nav {
 }
 
 .main-navigation img {
-  width: 250px;
-  height: 110px;
+  width: 200px;
+  height: 160px;
+  filter: brightness(0) invert(1);
+  margin-left: 3rem;
+  position: relative;
+  top: -2rem;
 }
 
 .main-navigation a {
