@@ -73,6 +73,15 @@ a {
   border-radius: 18%;
 }
 
+.avatar-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container > * {
+  margin-right: 10px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -165,7 +174,6 @@ main {
 }
 
 .article-container {
-  background: #888;
   width: 600px;
   height: 300px;
   padding: 2rem;
@@ -178,7 +186,7 @@ main {
 
 .latest-posts {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+ 
   grid-gap: 2rem;
   color: var(--dark-gray-color);
 }
@@ -244,6 +252,15 @@ main {
   font-size: 1.5rem;
   margin: 3rem 0 8rem 0;
   text-decoration: underline;
+}
+
+.shipping {
+  height: 25em;
+  font-size: 3rem;
+}
+
+.comminity-links-grid {
+  grid-template-columns: 1fr 1fr;
 }
 
 /* Footer Section */
