@@ -1,6 +1,6 @@
 # Design Teardown
 
-This project is client side clone of old <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/"  target="_blank">iPhone Home Page</a>: 
+This project is heatmap of <a href="https://www.smashingmagazine.com/"  target="_blank">smashingmagazine.com</a>: 
 ![screenshot](https://github.com/8Bts/Design-Teardown/blob/home-page/images/app-screenshot.png)
 
 ## Built With
