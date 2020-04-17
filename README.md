@@ -9,11 +9,10 @@ This project is client side clone of old <a href="https://web.archive.org/web/20
 - CSS,
 - VS Code
 - Firefox Developer Edition dev tools
-- www.cssmatic.com Gradient generator
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/f5204abadb8e67cacaa4a1b895800e3374c1534b/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/060d6d1a45b5bf9d4fe52bffe1ea9b856e977159/index.html" target="_blank">Live version</a>
 
 ## Authors
 
