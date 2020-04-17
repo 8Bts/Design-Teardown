@@ -211,7 +211,6 @@ main {
 
 .latest-posts {
   grid-template-columns: repeat(3, 1fr);
-
   grid-gap: 2rem;
   color: var(--dark-gray-color);
 }
@@ -314,6 +313,7 @@ main {
   line-height: 1.8;
   padding: 2rem;
 }
+
 .smashing-book .smashing-book-img {
   width: 28%;
   float: right;
@@ -343,7 +343,6 @@ main {
   color: var(--darkest-gray-color);
   width: 100%;
   padding-top: 3rem;
-
 }
 
 .guids {
@@ -392,5 +391,49 @@ main {
 /* Footer Section */
 footer {
   grid-area: footer;
-  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 4rem 0;
+  font-size: 1.2rem;
+}
+
+footer ul.categories {
+  list-style: none;
+  padding: 0 5rem;
+  margin-bottom: 3rem;
+}
+
+footer .categories li::before {
+  content: "\2022";
+  font-weight: bold;
+  width: 1em;
+  display: inline-block;
+}
+
+footer ul > * {
+  display: inline-block;
+  margin-right: 0.87rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+footer .founders {
+  width: 400px;
+  line-height: 1.8;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+footer .footer-links {
+  width: 300px;
+}
+
+footer .footer-links li {
+  text-decoration: underline;
 }
