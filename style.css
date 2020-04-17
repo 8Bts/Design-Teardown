@@ -222,6 +222,9 @@ main {
 
 .upcoming {
   height: 100vh;
+  grid-column: 1  / -1;
+  margin: 2rem;
+  border-radius: 20px;
 }
 
 .upcoming h1 {
@@ -231,6 +234,16 @@ main {
   padding: 3rem;
   font-size: 2.5rem;
   background: var(--light-color);
+}
+
+.latest-heading-link {
+  padding: 2rem;
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  text-decoration: underline;
 }
 
 /* Footer Section */
