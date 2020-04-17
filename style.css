@@ -241,8 +241,8 @@ main {
   grid-column: 1 / -1;
   align-self: center;
   justify-self: center;
-  font-size: 2rem;
-  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  margin: 3rem 0 8rem 0;
   text-decoration: underline;
 }
 
