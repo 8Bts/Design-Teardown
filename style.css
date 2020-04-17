@@ -178,7 +178,7 @@ main {
   padding: 1rem;
 }
 
-.t-shape span:last-child {
+.t-shape .t-shap-span-2 {
   display: inline-block;
   margin-top: 0.4rem;
 }
@@ -223,7 +223,7 @@ main {
   padding: 0.7rem;
 }
 
-.latest-posts article h2 {
+.latest-posts h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   text-decoration: underline;
@@ -303,12 +303,12 @@ main {
   margin-top: 2.2rem;
 }
 
-.smashing-book .description h2 {
+.smashing-book h2 {
   font-size: 3rem;
   padding: 2rem;
 }
 
-.smashing-book .description p {
+.smashing-book p {
   font-size: 1.5rem;
   line-height: 1.8;
   padding: 2rem;
@@ -389,7 +389,7 @@ main {
 }
 
 /* Footer Section */
-footer {
+.footer {
   grid-area: footer;
   display: flex;
   flex-direction: column;
@@ -397,32 +397,32 @@ footer {
   text-align: center;
 }
 
-footer h2 {
+.footer h2 {
   margin: 4rem 0;
   font-size: 1.2rem;
 }
 
-footer ul.categories {
+.footer ul.categories {
   list-style: none;
   padding: 0 5rem;
   margin-bottom: 3rem;
 }
 
-footer .categories li::before {
-  content: "\2022";
+.footer .categories li::before {
+  content: '\2022';
   font-weight: bold;
   width: 1em;
   display: inline-block;
 }
 
-footer ul > * {
+.footer ul li {
   display: inline-block;
   margin-right: 0.87rem;
   margin-bottom: 0.8rem;
   font-size: 1.4rem;
 }
 
-footer .founders {
+.footer .founders {
   width: 400px;
   line-height: 1.8;
   font-style: italic;
@@ -430,10 +430,10 @@ footer .founders {
   margin-bottom: 2rem;
 }
 
-footer .footer-links {
+.footer .footer-links {
   width: 300px;
 }
 
-footer .footer-links li {
+.footer .footer-links li {
   text-decoration: underline;
 }
