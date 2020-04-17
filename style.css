@@ -201,7 +201,7 @@ main {
   font-size: 24px;
 }
 
-.article-container-block{
+.article-container-block {
   margin-left: 4rem;
 }
 
@@ -211,7 +211,7 @@ main {
 
 .latest-posts {
   grid-template-columns: repeat(3, 1fr);
- 
+
   grid-gap: 2rem;
   color: var(--dark-gray-color);
 }
@@ -255,14 +255,14 @@ main {
 
 .upcoming {
   height: 100vh;
-  grid-column: 1  / -1;
+  grid-column: 1 / -1;
   margin: 2rem;
   border-radius: 20px;
 }
 
 .upcoming h1 {
   align-self: center;
-  display:inline-block;
+  display: inline-block;
   width: 500px;
   padding: 3rem;
   font-size: 2.5rem;
@@ -291,6 +291,48 @@ main {
 
 .community-links-grid article:first-child {
   grid-column: 1 / -1;
+}
+
+.smashing-book {
+  height: 500px;
+  padding: 3rem;
+}
+
+.smashing-book .description {
+  width: 65%;
+  margin-top: 2.2rem;
+}
+
+.smashing-book .description h2 {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.smashing-book .description p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  padding: 2rem;
+}
+.smashing-book .smashing-book-img {
+  width: 28%;
+  float: right;
+  margin-left: 2rem;
+}
+
+.smashing-book-img div {
+  width: 270px;
+  height: 420px;
+  position: relative;
+  top: -400px;
+  text-align: center;
+  border-radius: 3px;
+  transform: rotate(-15deg);
+}
+
+.smashing-book div span {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-top: 5rem;
 }
 /* Footer Section */
 footer {
