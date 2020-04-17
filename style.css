@@ -6,6 +6,7 @@
   --light-color: rgb(218, 218, 218);
   --whit-color: #fff;
 }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -85,14 +86,6 @@ a {
   grid-auto-rows: auto auto 642.5px;
 }
 
-.article-container {
-  background: #888;
-  width: 600px;
-  height: 300px;
-  padding: 2rem;
-  margin-left: 3rem;
-}
-
 nav {
   grid-area: nav;
   padding-top: 1rem;
@@ -109,11 +102,10 @@ nav {
 }
 
 .main-navigation a {
-  display: inline-block;
+  display: flex;
   padding: 1.25rem 0;
   font-size: 1.6rem;
   font-weight: 600;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -146,7 +138,6 @@ main {
 }
 
 .latest-articles {
-  border: 1px solid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, 703.05px);
   position: relative;
@@ -154,26 +145,40 @@ main {
 
 .t-shape {
   text-align: center;
-  margin: 0 36%;
-  margin-top: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
   position: absolute;
   color: #000;
   font-size: 2.5rem;
   font-weight: 600;
   white-space: nowrap;
-  border: 1px solid black;
 }
-
 
 .t-shape span {
   padding: 1rem;
-  
 }
 
+.t-shape span:last-child {
+  display: inline-block;
+  margin-top: 0.4rem;
+}
 
+.article-container {
+  background: #888;
+  width: 600px;
+  height: 300px;
+  padding: 2rem;
+  margin: 50px auto;
+}
 
 .latest-articles h2 {
   font-size: 2.5rem;
+}
+
+.latest-posts {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 /* Footer Section */
