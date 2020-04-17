@@ -1,4 +1,4 @@
-# Building with Backgrounds and Gradients
+# Design Teardown
 
 This project is client side clone of old <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/"  target="_blank">iPhone Home Page</a>: 
 ![screenshot](https://github.com/8Bts/Design-Teardown/blob/home-page/images/app-screenshot.png)
