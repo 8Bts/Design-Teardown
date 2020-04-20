@@ -12,7 +12,7 @@ This project is client side clone of old <a href="https://web.archive.org/web/20
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/060d6d1a45b5bf9d4fe52bffe1ea9b856e977159/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/bf4774c02bb81d5556f468d489844b23e43f3ad3/index.html" target="_blank">Live version</a>
 
 ## Authors
 
@@ -33,7 +33,7 @@ This project is client side clone of old <a href="https://web.archive.org/web/20
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/8Bts/Building-with-Backgrounds-and-Gradients/issues" target="_blank">issues page</a>.
+Feel free to check the <a href="https://github.com/8Bts/Design-Teardown/issues" target="_blank">issues page</a>.
 
 ## Show your support
 
