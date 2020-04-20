@@ -12,7 +12,7 @@ This project is heatmap of <a href="https://www.smashingmagazine.com/"  target="
 
 ## Live Demo
 
-<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/bf4774c02bb81d5556f468d489844b23e43f3ad3/index.html" target="_blank">Live version</a>
+<a href="https://rawcdn.githack.com/8Bts/Design-Teardown/d2a1eb223c1384078696949e91470c39ab3ee16e/index.html" target="_blank">Live version</a>
 
 ## Authors
 
